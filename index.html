@@ -4,51 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Árbol genealógico de Álvaro</title>
-    <style>
-        .tree {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: Arial, sans-serif;
-        }
-        .parent {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .children {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 50%;
-            margin-top: 20px;
-        }
-        .line {
-            border-left: 2px solid black;
-            height: 50px;
-        }
-        .horizontal-line {
-            border-top: 2px solid black;
-            width: 50%;
-            margin: 0 auto;
-        }
-    </style>
 </head>
 <body>
-    <div class="tree">
-        <div class="parent">
-            <h1>María Alejandra</h1>
-            <span>------------</span>
-            <h1>Francisco Javier</h1>
-        </div>
-        <div class="line"></div>
-        <div class="horizontal-line"></div>
-        <div class="line"></div>
-        <div class="children">
-            <h2>Álvaro</h2>
-            <h2>Ángel</h2>
-        </div>
-    </div>
+    <h1>Árbol genealógico de Álvaro</h1>
+    <ul>
+        <li>María Alejandra y Francisco Javier
+            <ul>
+                <li>Álvaro</li>
+                <li>Ángel</li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>
