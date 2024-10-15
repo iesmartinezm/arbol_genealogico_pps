@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Árbol genealógico de Maximo</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .person {
+            padding: 5px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        .generation {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Árbol genealógico de Maximo</h1>
+    
+    <div class="generation">
+        <h2>Abuelos</h2>
+    </div>
+
+    <div class="generation">
+        <h2>Padres</h2>
+        <ul>
+            <li>
+                <div class="person"></div>
+                <ul>
+                    <li><div class="person">Jose</div></li>
+                    <li><div class="person">Toñi</div></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="generation">
+        <h2>Hermanos</h2>
+        <ul>
+            <li>
+                <div class="person">Josemanuel</div>
+            </li>
+        </ul>
+    </div>
+
 </body>
 </html>
+
